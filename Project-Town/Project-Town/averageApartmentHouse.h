@@ -2,7 +2,7 @@
 class averageApartmentHouse
 {
 public:
-	int iAverageApartmentHouse(int populationAvarageApartmentHouse);
+	void iAverageApartmentHouse(int populationAvarageApartmentHouse);
 
 };
 

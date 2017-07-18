@@ -3,9 +3,8 @@
 extern int quantityAverageApartmentHouse;
 
 // 5 этажей, 3 квартиры на площадке - 15 квартир. 1 житель в квартире
-int averageApartmentHouse::iAverageApartmentHouse(int populationAvarageApartmentHouse) {
+void averageApartmentHouse::iAverageApartmentHouse(int populationAvarageApartmentHouse) {
 	quantityAverageApartmentHouse = ceil(populationAvarageApartmentHouse / 15.0); // Округление в большую сторону
-	return quantityAverageApartmentHouse;
 }
 
 

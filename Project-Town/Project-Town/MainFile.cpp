@@ -47,7 +47,7 @@ int main() {
 	while (populationTown < winPopulationTown  && populationTown > 0) { // единица отсчета 1 месяц
 		
 		
-		mainChangeLevelHappiness.iChangeLevelHappiness(levelHappiness);
+		mainChangeLevelHappiness.iChangeLevelHappiness();
 		cout << "Level Happiness this month: " << levelHappiness << endl; // Контроль 
 		
 		changePopulationTown = constChangePopulationTown + levelHappiness;

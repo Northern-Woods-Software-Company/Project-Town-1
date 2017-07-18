@@ -2,6 +2,6 @@
 class averageFoodShop
 {
 public:
-	int iAverageFoodShop(int populationAverageFoodShop);
+	void iAverageFoodShop(int populationAverageFoodShop);
 };
 

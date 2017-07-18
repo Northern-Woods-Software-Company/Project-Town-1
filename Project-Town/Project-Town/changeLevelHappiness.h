@@ -2,7 +2,7 @@
 class changeLevelHappiness
 {
 public:
-	int iChangeLevelHappiness(int _LevelHappiness);
+	void iChangeLevelHappiness();
 
 };
 
